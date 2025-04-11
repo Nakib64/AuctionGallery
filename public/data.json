@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "title": "Vintage Leica M3 Camera",
+      "description": "A classic 35mm film camera loved by collectors.",
+      "currentBidPrice": 2850,
+      "timeLeft": "2 Days left",
+      "bidsCount": 12,
+      "image": "https://i.ibb.co.com/RpXt4nZP/Bid1-min.png"
+    },
+    {
+      "id": 2,
+      "title": "1965 Gibson SG Standard Electric Guitar",
+      "description": "Iconic vintage electric guitar with original parts.",
+      "currentBidPrice": 285,
+      "timeLeft": "7 Days left",
+      "bidsCount": 8,
+      "image": "https://i.ibb.co.com/21JhMfc7/Bid2-min.png"
+    },
+    {
+      "id": 3,
+      "title": "Original Apple Macintosh 128K (1984)",
+      "description": "First-generation Macintosh computer in working condition.",
+      "currentBidPrice": 5850,
+      "timeLeft": "1 Days left",
+      "bidsCount": 15,
+      "image": "https://i.ibb.co.com/G3PxJC0X/Bid3-min.png"
+    },
+    {
+      "id": 4,
+      "title": "Rolex Submariner 16610",
+      "description": "Luxury diving watch with timeless style.",
+      "currentBidPrice": 2450,
+      "timeLeft": "12 hours left",
+      "bidsCount": 22,
+      "image": "https://i.ibb.co.com/tMJLF6Kx/Bid4-min.png"
+    },
+    {
+      "id": 5,
+      "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
+      "description": "Rare first edition copy of the American classic.",
+      "currentBidPrice": 3200,
+      "timeLeft": "5 hours left",
+      "bidsCount": 6,
+      "image": "https://i.ibb.co.com/TxJL6X85/Bid5-min.png"
+    },
+    {
+      "id": 6,
+      "title": "Mid-Century Modern Eames Lounge Chair",
+      "description": "Authentic lounge chair in walnut and black leather.",
+      "currentBidPrice": 2000,
+      "timeLeft": "2 Days left",
+      "bidsCount": 10,
+      "image": "https://i.ibb.co.com/5XYcWKSD/Bid6-min.png"
+    },
+    {
+      "id": 7,
+      "title": "Banksy Original Screen Print",
+      "description": "Limited edition signed screen print by Banksy.",
+      "currentBidPrice": 1000,
+      "timeLeft": "5 Days left",
+      "bidsCount": 18,
+      "image": "https://i.ibb.co.com/dsph010w/Bid7-min.png"
+    }
+  ]
+  
