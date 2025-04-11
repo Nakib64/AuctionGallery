@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaDeleteLeft } from "react-icons/fa6";
-
+import { ToastContainer, toast } from 'react-toastify';
 import BidItems from './bidItems';
 
 
@@ -16,6 +16,7 @@ const Bid = () => {
             setfav(newfav)
             console.log(fav)
             setcost(cost+ data.currentBidPrice)
+            toast("Item added!")
         }
         const handleDelete=(data)=>{
             setcost(cost- data.currentBidPrice)
@@ -33,7 +34,9 @@ const Bid = () => {
 
     
     return (
+        
         <div className='w-full bg-gray-100 mt-16'>
+            <ToastContainer autoClose={1000} />
             <div className='w-full max-w-[80%] mx-auto py-12'>
                <h1 className='text-blue-900 font-bold text-2xl'>Active Auctions</h1>
                <p>Discover and bid on extraordinary items</p>
@@ -105,7 +108,7 @@ const Bid = () => {
                                 })
                             
                             }
-                        <div className='p-3 border-b-1 border-gray-300 flex justify-between font-bold text-center'>
+                        <div className='p-3  border-gray-300 flex justify-between font-bold text-center'>
                             <h1>Total bid amount: </h1>
                             <h1>${cost}</h1>
                         </div>
