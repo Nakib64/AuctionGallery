@@ -12,6 +12,7 @@ function App() {
         <Landing></Landing>
         <Bid></Bid>
         <Footer></Footer>
+        
     </>
   )
 }

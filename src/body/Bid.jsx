@@ -74,17 +74,14 @@ const Bid = () => {
                         <div className='py-3 border-b-1 border-gray-300 text-blue-900 font-bold text-center'> 
                             🖤 Favourite Items</div>
                             {
-                                fav.map(data=>{
-
-                                    if(fav.length==0){
-                                        return(
-                                            <div  className='flex border-b-1 border-gray-300 text-center gap-4'>
-                                            <h1>No favourites yet!</h1>
-                                            <p>Click the heart icon on any item to add it to your favorites</p>
-                                            </div>
-                                        )
-                                    }
-                                    else{
+                               (fav.length===0)?
+                                (
+                                    <div  className='flex border-b-1 border-gray-300 text-center gap-4 flex-col'>
+                                    <h1>No favourites yet!</h1>
+                                    <p>Click the heart icon on any item to add it to your favorites</p>
+                                    </div>
+                                ):
+                                fav.map(data=>{                
                                     return(
                                         <div className='flex border-b-1 border-gray-300 '>
                                             <div className='flex w-[90%] p-3 text-sm gap-2'>
@@ -104,8 +101,9 @@ const Bid = () => {
                                                 </button>
                                             </div>
                                         </div>
-                                    )}
+                                    )
                                 })
+                            
                             }
                         <div className='p-3 border-b-1 border-gray-300 flex justify-between font-bold text-center'>
                             <h1>Total bid amount: </h1>
