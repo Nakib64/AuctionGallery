@@ -1,12 +1,57 @@
-# React + Vite
+# 🖼️ Auction Gallery Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A highly responsive front-end Auction Gallery application where users can explore and bid on gallery items with a clean and engaging user interface. Built with React and Tailwind CSS, the app features an authentication system, beautiful slide animations, and state management using React Context API — all without a backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [Live Site](https://your-auction-gallery-app.com)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Features
+
+- 🎨 Explore auction items from a dynamic JSON dataset
+- 🔐 Simple user authentication (simulated via Context API)
+- 🔁 Fascinating animation for featured galleries
+- 📱 Fully responsive — behaves like a native mobile app on small screens
+- ⚛️ State managed using React Context API (no Redux, no backend)
+- 🚫 No external database or server — purely front-end powered
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React
+- 🎨 Tailwind CSS
+- 💾 Context API
+- 📂 Local JSON data
+
+---
+
+## 📁 Folder Structure
+
+/public → Static assets
+/src
+/components → Reusable UI components
+/context → Global state management
+/data → Local JSON dataset
+/pages → Route-based views
+/assets → Images, icons
+App.jsx → Main entry
+main.jsx → React root
+
+
+
+---
+
+## 🚀 Getting Started Locally
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/auction-gallery.git
+cd auction-gallery
+npm install
+npm run dev
