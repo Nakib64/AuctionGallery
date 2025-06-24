@@ -7,7 +7,8 @@ import BidItems from './bidItems';
 
 const Bid = () => {
 
-    
+         
+         
         const [fav, setfav]= useState([])
         const [cost, setcost] = useState(0)
         const handlefav=(data)=>{
@@ -35,20 +36,20 @@ const Bid = () => {
     
     return (
         
-        <div className='w-full bg-gray-100 mt-16'>
+        <div className='w-full bg-gray-100 mt-16' id='bid'>
             <ToastContainer autoClose={1000} />
-            <div className='w-full max-w-[80%] mx-auto py-12'>
+            <div className='w-full sm:container 2xl:max-w-[80%] mx-auto py-12'>
                <h1 className='text-blue-900 font-bold text-2xl'>Active Auctions</h1>
                <p>Discover and bid on extraordinary items</p>
-               <div className='w-full flex gap-3'>
-                    <div className='w-[70%] border-1 rounded-2xl grid grid-cols-6 pl-3 border-gray-300 text-gray-900 bg-white'>
-                        <div className='col-span-3 py-3 font-semibold'>Items</div>
+               <div className='w-full flex gap-3 flex-col lg:flex-row'>
+                    <div className='xl:w-[70%] mx-1 sm:w-full flex flex-col border-1 rounded-2xl xl:grid xl:grid-cols-6 pl-3 border-gray-300 text-gray-900 bg-white '>
+                        <div className='col-span-3 py-3 font-semibold border-b-1 border-gray-300'>Items</div>
 
-                        <div className='flex items-center justify-center py-3 font-semibold'>Current Bid</div> 
+                        <div className='flex items-center justify-center py-3 font-semibold border-b-1 border-gray-300'>Current Bid</div> 
 
-                        <div className="flex items-center justify-center py-3 font-semibold">Time Left</div>
+                        <div className="flex items-center justify-center py-3 font-semibold border-b-1 border-gray-300">Time Left</div>
 
-                        <div className="flex items-center justify-center py-3 font-semibold">Bid Now</div>
+                        <div className="flex items-center justify-center py-3 font-semibold border-b-1 border-gray-300">Bid Now</div>
                         {
                             data.map(data=>{
                                 
@@ -56,12 +57,12 @@ const Bid = () => {
                             
                                 return (
                                     <>
-                                    <div className='col-span-3 flex gap-2 border-t-1 border-gray-300 py-3'>
+                                    <div className='xl:col-span-3 flex flex-col gap-2 border-t-1 border-gray-300 py-3'>
                                         
-                                        <div>
-                                            <img src={data.image} alt="" className='aspect-square h-12 rounded-lg' />
+                                        <div className='w-15'>
+                                            <img src={data.image} alt="" className='  w-14 h-14 rounded-lg ' />
                                         </div>
-                                        <h2>{data.title}</h2>
+                                        <h2 className='sm:text-[10px] overflow-hidden'>{data.title}</h2>
                                     </div>
 
                                     <div className='flex items-center justify-center border-t-1 border-gray-300 py-3'>${data.currentBidPrice}</div> 
@@ -73,7 +74,7 @@ const Bid = () => {
                             })
                         }
                     </div>
-                    <div className='w-[30%] border-1 border-gray-300 bg-white rounded-2xl h-fit '>
+                    <div className='xl:w-[30%] mx-1 border-1 border-gray-300 bg-white rounded-2xl h-fit '>
                         <div className='py-3 border-b-1 border-gray-300 text-blue-900 font-bold text-center'> 
                             🖤 Favourite Items</div>
                             {

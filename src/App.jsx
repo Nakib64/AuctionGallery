@@ -11,8 +11,7 @@ function App() {
         <Nav></Nav>
         <Landing></Landing>
         <Bid></Bid>
-        <Footer></Footer>
-        
+        <Footer></Footer> 
     </>
   )
 }
