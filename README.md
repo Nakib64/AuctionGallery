@@ -1,12 +1,12 @@
 # 🖼️ Auction Gallery Web App
 
-A highly responsive front-end Auction Gallery application where users can explore and bid on gallery items with a clean and engaging user interface. Built with React and Tailwind CSS, the app features an authentication system, beautiful slide animations, and state management using React Context API — all without a backend.
+A highly responsive front-end Auction Gallery application where users can explore and bid on gallery items with a clean and engaging user interface. Built with React and Tailwind CSS, the app features an authentication system, beautiful animations, and state management using React Context API — all without a backend.
 
 ---
 
 ## 🌐 Live Demo
 
-🔗 [Live Site](https://your-auction-gallery-app.com)
+🔗 [Live Site](https://sprightly-liger-6a3a4e.netlify.app/)
 
 ---
 
